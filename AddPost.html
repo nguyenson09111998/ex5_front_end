@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <link
+      href="https://fonts.googleapis.com/css?family=Roboto&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./css/styleadmin.css" />
+    <title>Add bai viet</title>
+  </head>
+  <body>
+    <div class="main-manage">
+      <div class="header-manage"></div>
+      <div class="content-manage">
+        <div class="row-content grid-main">
+          <div class="column-left">
+            <div class="row-menu">
+              <ul>
+                <li>
+                  <a href="#"> <i class="fa fa-bell-o"></i> Thêm bài viết</a>
+                </li>
+                <li>
+                  <a href="#"><i class="fa fa-bell-o"></i> Các Bài viết</a>
+                </li>
+              </ul>
+            </div>
+          </div>
+          <div class="column-right">
+            <div class="Breadcrumb">
+              <p>
+                <span>Manage</span><span>/</span
+                ><span>Tất cả các bài viết</span>
+              </p>
+            </div>
+            <div class="content-table">
+              <div class="table-box">
+                <div class="table_title">
+                  <div class="title-box">
+                    <div class="title-add">
+                      <button class="btn_ btn_primary" type="submit">
+                        Thêm bài viết
+                      </button>
+                    </div>
+                  </div>
+                </div>
+                <table class="table table-management">
+                  <thead>
+                    <tr>
+                      <th>STT</th>
+                      <th>Mã đề</th>
+                      <th>Tên đề</th>
+                      <th>Môn</th>
+                      <th>Thời gian</th>
+                      <th>Tổng số câu</th>
+                      <th>Random câu</th>
+                      <th>Trạng Thái</th>
+                      <th>Actions</th>
+                    </tr>
+                  </thead>
+                  <tbody>
+                    <tr>
+                      <td>1</td>
+                      <td>HTL_Bai1</td>
+                      <td>Thuốc kháng virus</td>
+                      <td>Hóa trị liệu</td>
+                      <td>20</td>
+                      <td>181</td>
+                      <td>50</td>
+                      <td>Riêng tư</td>
+                      <td>
+                        <span class="subject_edit"
+                          ><i class="fa fa-pencil edit_"></i></span
+                        ><span class="subject_del"
+                          ><i class="fa fa-trash-o del_"></i
+                        ></span>
+                      </td>
+                    </tr>
+                    <tr>
+                      <td>2</td>
+                      <td>HTL_Free_1</td>
+                      <td>Câu hỏi lượng giá Hóa trị liệu (phần 1)</td>
+                      <td>Hóa trị liệu</td>
+                      <td>15</td>
+                      <td>37</td>
+                      <td>37</td>
+                      <td>Công khai</td>
+                      <td>
+                        <span class="subject_edit"
+                          ><i class="fa fa-pencil edit_"></i></span
+                        ><span class="subject_del"
+                          ><i class="fa fa-trash-o del_"></i
+                        ></span>
+                      </td>
+                    </tr>
+                    <tr>
+                      <td>3</td>
+                      <td>HTL_FREE_2</td>
+                      <td>Câu hỏi ôn tập Hóa trị liệu</td>
+                      <td>Hóa trị liệu</td>
+                      <td>15</td>
+                      <td>47</td>
+                      <td>47</td>
+                      <td>Công khai</td>
+                      <td>
+                        <span class="subject_edit"
+                          ><i class="fa fa-pencil edit_"></i></span
+                        ><span class="subject_del"
+                          ><i class="fa fa-trash-o del_"></i
+                        ></span>
+                      </td>
+                    </tr>
+                    <tr>
+                      <td>4</td>
+                      <td>HTL_FREE_3</td>
+                      <td>Câu hỏi lượng giá Hóa trị liệu (phần 2)</td>
+                      <td>Hóa trị liệu</td>
+                      <td>9</td>
+                      <td>18</td>
+                      <td>18</td>
+                      <td>Công khai</td>
+                      <td>
+                        <span class="subject_edit"
+                          ><i class="fa fa-pencil edit_"></i></span
+                        ><span class="subject_del"
+                          ><i class="fa fa-trash-o del_"></i
+                        ></span>
+                      </td>
+                    </tr>
+                  </tbody>
+                </table>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="modal-manage">
+          <div class="modal_backdrop show"></div>
+          <div class="modal-main">
+            <div class="modal_box" style="width: 1200px;">
+              <div class="modal_header row-title">
+                <div class="modal_title"><p>Thêm bài viết</p></div>
+                <div class="modal_close"><span>Đóng</span></div>
+              </div>
+              <div class="modal-container">
+                <div class="modal_table"></div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

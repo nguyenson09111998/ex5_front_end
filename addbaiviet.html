@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <link
+      href="https://fonts.googleapis.com/css?family=Roboto&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./css/styleadmin.css" />
+    <title>Add bai viet</title>
+  </head>
+  <body>
+    <div class="main-manage">
+      <div class="header-manage"></div>
+      <div class="content-manage">
+        <div class="row-content grid-main">
+          <div class="column-left">
+            <div class="row-menu">
+              <ul>
+                <li>
+                  <a href="#"> <i class="fa fa-bell-o"></i> Thêm bài viết</a>
+                </li>
+                <li>
+                  <a href="#"><i class="fa fa-bell-o"></i> Các Bài viết</a>
+                </li>
+              </ul>
+            </div>
+          </div>
+          <div class="column-right">
+            <div class="Breadcrumb">
+              <p>
+                <span>Manage</span><span>/</span><span>Tạo bài viết mới</span>
+              </p>
+            </div>
+            <div class="content-table">
+              <div class="table-box">
+                <h3 class="title_add">Nội dung bài viết</h3>
+                <div class="add_port">
+                  <form>
+                    <div class="grid_row">
+                      <div class="column-left">
+                        <table class="table table_them">
+                          <tr class="title_post">
+                            <td>Tieu de</td>
+                            <td>
+                              <div>
+                                <input
+                                  type="text"
+                                  class="form-input"
+                                  placeholder="Title"
+                                />
+                              </div>
+                            </td>
+                          </tr>
+                          <tr class="link_private">
+                            <td>Lin ket tinh</td>
+                            <td>
+                              <a href="#">http://testyduoconline.com/manage </a>
+                            </td>
+                          </tr>
+                          <tr class="content_new_post">
+                            <td>Noi dung</td>
+                            <td>
+                              <textarea
+                                class="form-input"
+                                name=""
+                                id=""
+                                cols="30"
+                                rows="5"
+                              ></textarea>
+                            </td>
+                          </tr>
+                          <tr class="date_posted">
+                            <td>Lịch đăng</td>
+                            <td class="date_radio">
+                              <span class="item_post">
+                                <input type="radio" name="test" />
+                                <span>Đăng ngay</span>
+                              </span>
+                              <span class="item_post">
+                                <input type="radio" name="test" />
+                                <span>Đặt lịch</span>
+                                <div style="display: inline-block;">
+                                  <input
+                                    class="form-input"
+                                    type="text"
+                                    placeholder="yyyy/mm/dd h:m"
+                                  />
+                                </div>
+                              </span>
+                            </td>
+                          </tr>
+                        </table>
+                      </div>
+                      <div class="column-right">
+                        <h3 class="column-title">
+                          Thông tin bổ xung
+                        </h3>
+                        <div class="email-bosung">
+                          <p>Email liên hệ</p>
+                          <input
+                            type="text"
+                            class="form-input"
+                            placeholder="nhập email"
+                          />
+                        </div>
+                        <div class="phone-bosung">
+                          <p>Số điện thoại</p>
+                          <input
+                            type="number"
+                            class="form-input"
+                            placeholder="nhập số diện thoại"
+                          />
+                        </div>
+                      </div>
+                    </div>
+                    <div class="submit_btn">
+                      <span
+                        ><button class="btn_ btn_post">Đăng bài</button></span
+                      >
+                      <span><button class="btn_ btn_post">reset</button></span>
+                    </div>
+                  </form>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
